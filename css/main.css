@@ -190,7 +190,7 @@ section {
 }
 
 .section-heading {
-  display: flex;
+  display: start;
   align-items: center;
   text-align: center;
   margin-bottom: 1rem;
@@ -200,7 +200,7 @@ section {
 .section-heading::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cccccc00;
   margin: 0 1rem;
 }
 
@@ -456,6 +456,53 @@ blockquote {
 
   .side-gallery {
     grid-template-columns: 1fr;
+  }
+
+  .section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0.75rem;
+  }
+
+  .section-nav .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    background: #fff;
+    color: #111;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+    text-decoration: none;
+  }
+
+  .section-nav .button:hover,
+  .section-nav .button:focus {
+    background: #f1f8ff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+  }
+
+  .section-nav .button:focus {
+    outline: 3px solid rgba(0, 119, 204, 0.3);
+    outline-offset: 3px;
+  }
+
+  .page-title {
+    display: block;
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .page-title::before,
+  .page-title::after {
+    content: none;
   }
 }
 

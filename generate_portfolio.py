@@ -5,7 +5,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 # Load JSON data
-with Path("portfolio.json").open(encoding="utf-8") as f:
+with Path("portfolio-ian.json").open(encoding="utf-8") as f:
     data = json.load(f)
 
 # Add any extra context if needed
@@ -21,14 +21,18 @@ if "social_links" in data:
 env = Environment(loader=FileSystemLoader("."), autoescape=True)
 index_template = env.get_template("index_template.html")
 resume_template = env.get_template("resume_template.html")
+cs_website_template = env.get_template("cs_website_template.html")
 
 # Render the template with the data
 html_output = index_template.render(**data)
 resume_output = resume_template.render(**data)
+cs_website_output = cs_website_template.render(**data)
+
 
 # This is equivalent to...
 # html_output = index_template.render(name=data["name"], label=data["label"]...)
 # resume_output = resume_template.render(name=data["name"], label=data["label"]...)
+# cs_website_output = cs_website_template.render(name=data["name"], label=data["label"]...)
 
 # Write the output to an HTML file
 with Path("index.html").open("w", encoding="utf-8") as f:
@@ -36,5 +40,8 @@ with Path("index.html").open("w", encoding="utf-8") as f:
 
 with Path("resume.html").open("w", encoding="utf-8") as f:
     f.write(resume_output)
+
+with Path("cs_website.html").open("w", encoding="utf-8") as f:
+    f.write(cs_website_output)
 
 print("HTML file generated successfully!")

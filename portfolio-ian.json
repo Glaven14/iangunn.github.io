@@ -1,0 +1,208 @@
+{
+  "name": "Ian Gunn",
+  "label": "Grinnell Student",
+  "image_path": "portfolio_media/smallProfPhoto.jpg",
+  "contact": {
+    "email": "gunnian@grinnell.edu",
+    "phone": "414-399-0675",
+    "location": "Grinnell, IA, USA"
+  },
+  "summary": "Indie game designer and developer with a passion for creating engaging and immersive gaming experiences.",
+  "url": "file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html",
+  "social_links": [
+    {
+      "label": "Glaven14.com",
+      "url": "file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html",
+      "svg_path": "img/globe.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/Glaven14",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Grinnell College Athletics Department",
+      "position": "Student Athlete Mentor",
+      "url": "",
+      "start_date": "2024",
+      "end_date": "Present",
+      "summary": "",
+      "highlights": [
+        "Selected by Grinnell administration as one of two mentors for the Grinnell Baseball team.",
+        "Extensively trained in resources for student and athlete wellbeing.",
+        "Provide regular socio-emotional coaching, support, and mentoring to the baseball team, as well as individual students."
+      ]
+    },
+    {
+      "company": "Grinnell College CS Department",
+      "position": "Computer Science Tutor",
+      "url": "",
+      "start_date": "2024",
+      "end_date": "2025",
+      "summary": "",
+      "highlights": [
+        "Work with students identified by faculty as needing additional support in Computer Science.",
+        "Utilize active listening and supportive coaching strategies to build student confidence and competence in relevant content."
+      ]
+    },
+    {
+      "company": "Kitsap Ospreys",
+      "position": "U18 Assistant Baseball Coach",
+      "url": "https://kitsapospreys.org/",
+      "start_date": "2024",
+      "end_date": "2026",
+      "summary": "",
+      "highlights": [
+        "Instructed players Taught the intricacies on the nuances of high-level baseball in group and one-on-one settings.",
+        "Counseled players on individual improvement opportunities based on player goals.",
+        "Participated in decision-making with head coaches on team composition, based on assessment of program needs and player strengths."
+      ]
+    },
+    {
+      "company": "Grinnell College Immersive Experiences Lab",
+      "position": "Intern",
+      "url": "https://gciel.sites.grinnell.edu/",
+      "start_date": "2024",
+      "end_date": "2024",
+      "summary": "",
+      "highlights": [
+        "Involved in the design process with a historian, devs, and a project manager to create a historically accurate viking experience.",
+        "Worked in an agile development cycle to fulfill an NEH grant request."
+      ]
+    },
+    {
+      "company": "Lakeshore Chinooks",
+      "position": "BYB Tournament Staff",
+      "url": "https://www.bybtournaments.com/",
+      "start_date": "2022",
+      "end_date": "2023",
+      "summary": "",
+      "highlights": [
+        "Worked closely with security and tournament site managers to ensure a safe and secure environment for all fans.", 
+        "Informed coaches and umpires of rules, sites, and procedures.",
+        "Helped fans to navigate concessions and tickets."
+      ]
+    },
+    {
+      "company": "Self-Employed",
+      "position": "Personal Trainer",
+      "url": "",
+      "start_date": "2021",
+      "end_date": "Present",
+      "summary": "",
+      "highlights": [
+        "Create personalized workouts to fit clients' needs.",
+        "Work one-on-one with clients to help them achieve their physical goals, while teaching the basics of training safely."
+      ]
+    },
+    {
+      "company": "Self-Employed",
+      "position": "Contract Animator",
+      "url": "",
+      "start_date": "2020",
+      "end_date": "2020",
+      "summary": "",
+      "highlights": [
+        "Retained to create an anecdotal animation for a national health consulting firm."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "RPG & Dungeon Crawler Tutorial",
+      "summary": "Work your way through a series of layers on this RPG dungeon crawler heavily inspired by the GameMaker RPG tutorial. Early version more to come soon!!!",
+      "url": "https://gx.games/games/arqjb3/rpg-dungeon-crawler-tutorial/tracks/5677f1a2-91e2-45cc-ba31-5132d4bc2bac/",
+      "highlights": ["My introduction to making games with the GameMaker engine. I made this project as a way to learn the engine and to share what I learned with others."],
+      "images": [
+        {
+          "img_path": "portfolio_media/RPGDC1.png",
+          "caption": "Characters"
+        },
+        {
+          "img_path": "portfolio_media/RPGDC2.png",
+          "caption": "Leveling Up"
+        },
+        {
+          "img_path": "portfolio_media/RPGDC3.png",
+          "caption": "Fighting"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Grinnell College",
+      "location": "Grinnell, IA, USA",
+      "url": "https://grinnell.edu",
+      "degrees in progress": [
+        "Bachelor of Science in Computer Science",
+        "Bachelor of Science in Psychology"
+      ],
+      "honors": [
+        "Founder's Scholarship",
+        "Grinnell College Scholarship",
+        "Harry Hopkins 1912 Grant",
+        "Nancy E. Postma '52 Memorial Scholarship",
+        "MLK Jr. Scholarship",
+        "Inducted into Chi Alpha Sigma",
+        "Nominated for the Marie Nesbitt Promise Prize"
+      ],
+      "gpa_cumulative": "3.75",
+      "gpa_major": "3.71",
+      "graduation_date": "2027"
+    }
+  ],
+  "skills": [
+    {
+      "name": "C++, Java",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "JavaScript, HTML, Python, C, Lua",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    },
+    {
+      "name": "C#, Lisp, Racket",
+      "proficiency": 50,
+      "proficiency_label": "Adequate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rock Climbing",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/bouldering.jpg",
+          "caption": "Bouldering at local gym in WA"
+        }
+      ]
+    },
+    {
+      "name": "Hiking",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/hiking.jpg",
+          "caption": "Hiking on Hurracane Ridge in Olympic National Park in WA"
+        }
+      ]
+    },
+    {
+      "name": "Acapella Choir",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/solo.jpg",
+          "caption": "Performing Call Me by Frank Sinatra"
+        }
+      ]
+    }
+  ],
+  "languages": [],
+  "references": []
+}

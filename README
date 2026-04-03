@@ -1,0 +1,24 @@
+Base code is from Corey Schafer. 
+It included everything to make a default resume and a resume with pictures from the same data file. 
+
+Added cs_website.html and cs_website.template.html to meet requirements of CSC-324
+Manipulated portfolio-corey.json to portfolio-ian.json now includes my personal details
+Added my social media profile photos and links
+
+Took out YouTube and Instagram linke from portfolio-ian.json
+//line 17 - below website glaven14
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/c/coreyms",
+      "svg_path": "img/youtube.svg"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/coreymschafer",
+      "svg_path": "img/instagram.svg"
+    },
+
+Added to main.css formatting for buttons on header 
+
+
+Copy path of index.html for portfolio website URL
