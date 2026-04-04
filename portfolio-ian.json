@@ -7,14 +7,9 @@
     "phone": "414-399-0675",
     "location": "Grinnell, IA, USA"
   },
-  "summary": "Indie game designer and developer with a passion for creating engaging and immersive gaming experiences.",
+  "summary": "Indie game designer and developer with a passion for creating engaging and immersive gaming experiences. Also interested in the unique challenges present within the cybersecurity field.",
   "url": "file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html",
   "social_links": [
-    {
-      "label": "Glaven14.com",
-      "url": "file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html",
-      "svg_path": "img/globe.svg"
-    },
     {
       "label": "Github",
       "url": "https://github.com/Glaven14",
@@ -22,6 +17,18 @@
     }
   ],
   "work_experience": [
+    {
+      "company": "Grinnell College CS Department",
+      "position": "Computer Science Grader",
+      "url": "",
+      "start_date": "2026",
+      "end_date": "Present",
+      "summary": "",
+      "highlights": [
+        "Meet deadlines for grading assignments and coding challenges for multiple Computer Science courses.",
+        "Provide detailed feedback to students to help them improve their understanding of course material."
+      ]
+    },
     {
       "company": "Grinnell College Athletics Department",
       "position": "Student Athlete Mentor",
@@ -55,7 +62,7 @@
       "end_date": "2026",
       "summary": "",
       "highlights": [
-        "Instructed players Taught the intricacies on the nuances of high-level baseball in group and one-on-one settings.",
+        "Instructed players in the nuances of high-level baseball in group and one-on-one settings.",
         "Counseled players on individual improvement opportunities based on player goals.",
         "Participated in decision-making with head coaches on team composition, based on assessment of program needs and player strengths."
       ]
@@ -129,6 +136,18 @@
           "caption": "Fighting"
         }
       ]
+    },
+    {
+      "title": "Advent of Code",
+      "summary": "Solve daily coding puzzles to improve problem-solving skills and programming knowledge.",
+      "url": "https://adventofcode.com/",
+      "highlights": ["Improved problem-solving skills in C++ through daily coding challenges."],
+      "images": [
+        {
+          "img_path": "portfolio_media/placeholder.png",
+          "caption": "Puzzles solved"
+        }
+      ]
     }
   ],
   "education": [
@@ -171,7 +190,34 @@
       "proficiency_label": "Adequate"
     }
   ],
+  "tools": [
+    {
+      "name": "Visual Studio, Love2D",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "GitHub, GameMaker Studio 2",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    },
+    {
+      "name": "Unity, Netbeans, RStudio",
+      "proficiency": 50,
+      "proficiency_label": "Adequate"
+    }
+  ],
   "interests": [
+    {
+      "name": "Baseball",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/baseball.jpg",
+          "caption": "1st career appearance for Grinnell College Baseball Team"
+        }
+      ]
+    },
     {
       "name": "Rock Climbing",
       "summary": "",
@@ -188,7 +234,7 @@
       "images": [
         {
           "img_path": "portfolio_media/hiking.jpg",
-          "caption": "Hiking on Hurracane Ridge in Olympic National Park in WA"
+          "caption": "Hiking on Hurricane Ridge in Olympic National Park in WA"
         }
       ]
     },

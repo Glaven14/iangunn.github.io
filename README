@@ -20,5 +20,14 @@ Took out YouTube and Instagram linke from portfolio-ian.json
 
 Added to main.css formatting for buttons on header 
 
+link to resume, needs to be an actual website
+{
+      "label": "Glaven14.com",
+      "url": "file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html",
+      "svg_path": "img/globe.svg"
+    },
+
+
+index_template to add a section header with content
 
 Copy path of index.html for portfolio website URL

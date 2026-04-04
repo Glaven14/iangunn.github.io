@@ -276,6 +276,28 @@
             </section>
           {% endif %}
 
+          {% if tools %}
+            <section>
+              <h2 class="section-heading">Tools</h2>
+              <ul class="unstyled-list">
+                {% for tool in tools %}
+                  <li>
+                    <h3>{{ tool.name }}</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-{{ tool.proficiency }}"
+                           role="meter"
+                           aria-valuenow="{{ tool.proficiency }}"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">{{ tool.proficiency_label }}</span>
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+
           {% if languages %}
             <section>
               <h2 class="section-heading">Languages</h2>
