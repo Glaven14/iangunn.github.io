@@ -25,8 +25,8 @@
       "end_date": "Present",
       "summary": "",
       "highlights": [
-        "Meet deadlines for grading assignments and coding challenges for multiple Computer Science courses.",
-        "Provide detailed feedback to students to help them improve their understanding of course material."
+        "Met deadlines for grading assignments and coding challenges for multiple Computer Science courses.",
+        "Provided detailed feedback to students to help them improve their understanding of course material."
       ]
     },
     {
@@ -39,7 +39,7 @@
       "highlights": [
         "Selected by Grinnell administration as one of two mentors for the Grinnell Baseball team.",
         "Extensively trained in resources for student and athlete wellbeing.",
-        "Provide regular socio-emotional coaching, support, and mentoring to the baseball team, as well as individual students."
+        "Provided regular socio-emotional coaching, support, and mentoring to the baseball team, as well as individual students."
       ]
     },
     {
@@ -50,8 +50,8 @@
       "end_date": "2025",
       "summary": "",
       "highlights": [
-        "Work with students identified by faculty as needing additional support in Computer Science.",
-        "Utilize active listening and supportive coaching strategies to build student confidence and competence in relevant content."
+        "Worked with students identified by faculty as needing additional support in Computer Science.",
+        "Utilized active listening and supportive coaching strategies to build student confidence and competence in relevant content."
       ]
     },
     {
@@ -100,8 +100,8 @@
       "end_date": "Present",
       "summary": "",
       "highlights": [
-        "Create personalized workouts to fit clients' needs.",
-        "Work one-on-one with clients to help them achieve their physical goals, while teaching the basics of training safely."
+        "Created personalized workouts to fit clients' needs.",
+        "Worked one-on-one with clients to help them achieve their physical goals, while teaching the basics of training safely."
       ]
     },
     {
@@ -148,6 +148,48 @@
           "caption": "Puzzles solved"
         }
       ]
+    }
+  ],
+  "classes": [
+    {
+      "title": "CSC 151 - Functional Problem Solving with Lab",
+      "summary": "A lab-based introduction to basic ideas of computer science, including recursion, abstraction, scope and binding, modularity, the design and analysis of algorithms, and the fundamentals of programming in a high-level, functional language.",
+      "url": ""
+    },
+    {
+      "title": "CSC 161 - Imperative Problem Solving with Lab",
+      "summary": "Emphasizes concepts closely tied to the architecture of computers, compilers, and operating systems, such as macro processing, compilation and linking, pointers and memory management, data representation, and software development tools.",
+      "url": ""
+    },
+    {
+      "title": "CSC 207 - Object-Oriented Problem Solving, Data Structures, and Algorithms",
+      "summary": "An introduction to the ideas and practices of object-oriented computation: message passing, information hiding, classes and interfaces, inheritance, polymorphism, and reflection.",
+      "url": ""
+    },
+    {
+      "title": "CSC 208 - Discrete Structures",
+      "summary": "Proofs, common properties, and representing functions with math.",
+      "url": ""
+    },
+    {
+      "title": "CSC 211 - Computer Organization and Architecture",
+      "summary": "Study of both traditional and alternative computer architectures. Introduction to digital logic, microcode, Von Neumann architectures, data representations, fetch/execute model, RISC/CISC, instruction formats and addressing, machine and assembly language, memory architecture and algorithms, I/O architecture, and elements of distributed systems.",
+      "url": ""
+    },
+    {
+      "title": "CSC 301 - Analysis of Algorithms",
+      "summary": "Study methods for designing, analyzing, and implementing algorithms and data structures. The course explores formal and precise mechanisms for analyzing efficiency and verifying correctness and both iterative and recursive algorithms.",
+      "url": ""
+    },
+    {
+      "title": "CSC 324 - Software Design and Development with Lab",
+      "summary": "Provides a foundation for 'programming in the large' and developing high-quality software that meets human needs. Introduces the software lifecycle, agile development methods, professional tools, and software design principles.",
+      "url": ""
+    },
+    {
+      "title": "CSC 297 - Special Topics: Board Game Design",
+      "summary": "Guided reading and discussion of board game design, with a focus on the design of games that are engaging, balanced, and fun to play. Students will also have the opportunity to design and prototype their own board games.",
+      "url": ""
     }
   ],
   "education": [

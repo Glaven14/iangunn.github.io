@@ -171,6 +171,42 @@
             </section>
           {% endif %}
 
+          {% if classes %}
+            <section>
+              <h2 class="section-heading">Classes</h2>
+              {% for class in classes %}
+                <section>
+                  <h3>
+                    {% if class.url %}
+                      <a href="{{ class.url }}">{{ class.title }}</a>
+                    {% else %}
+                      {{ class.title }}
+                    {% endif %}
+                  </h3>
+                  {% if class.summary %}<p>{{ class.summary }}</p>{% endif %}
+                  {% if class.highlights %}
+                    <ul>
+                      {% for highlight in class.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if class.images %}
+                    <div class="gallery main-gallery">
+                      {% for img in class.images %}
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                          <figcaption>{{ img.caption }}</figcaption>
+                        </figure>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
           {% if volunteer_experience %}
             <section>
               <h2 class="section-heading">Volunteer Experience</h2>
