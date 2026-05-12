@@ -50,7 +50,7 @@
             </address>
             <ul class="inline-list flex-responsive">
               <li>
-                <a href="file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html"
+                <a href="file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/index.html"
                    rel="noopener noreferrer"
                    aria-label="Glaven14.com"
                    class="link-with-icon">
@@ -100,9 +100,37 @@
           <a class="button" href="design.html">Design</a>
           <a class="button" href="engineering.html">Engineering</a>
         </nav>
+      </div>
+      <div class="container">
         <main>
           <section>
             <h2 class="section-heading page-title">Verification</h2>
+          </section>
+          <section> 
+            <h4>Testing Strategies </h4>
+            <p>I was responsible for testing the save state. LOVE2D also doesn't have any code coverage tools. These are condition coverage tests which ensure that the save state isn't corrupted and shouldn't produce negative numbers. We did not cover most of the code because it relies on user interaction and there is no way to automate user interaction within the LOVE2D framework.</p>
+            <figure>
+              <img width="600"
+              height="338"
+              src="portfolio_media/needfinding.png"
+              alt="">
+            </figure>
+            <h4>Testing Infrastructure</h4>
+            <p>I designed an interface that allows users to enter a testing mode with a key binding. Within the testing mode, users can select a simulated game state to start, and the game state starts from there while running asserts to check the save state doesn't get corrupted, and the text boxes are presented in the order they are supposed to. This saves us time by allowing us to just press a button instead of having to grind the game all the way to an end game state, or even from having to manually manipulate the save state to get to the end of the game. This also helped us catch that when paper production outpaced wood production in the early game, (only paper production was automated) the numbers representing wood collection to the user would wrap around and print a really big negative number instead of just zero.</p>
+            <figure>
+              <img width="600"
+              height="338"
+              src="portfolio_media/infrastructure.png"
+              alt="">
+            </figure>
+            <h4>Testing Technologies</h4>
+            <p>We built our own testing paradigm. It allowed us to run the game from different save states where we could then automatically test whether certain variables were always within the proper bounds (the resources we collected should never end up as a negative number). It was effective in testing different states of the game and confirming our invariants but it was not effective in testing user interaction. I envision using this testing paradigm to quickly check any new features to our game won't cause any bugs or any changes to the math behind the progression won't make our numbers "wonky".</p>
+            <figure>
+              <img width="600"
+              height="338"
+              src="portfolio_media/testingTech.png"
+              alt="">
+            </figure>
           </section>
         </main>
       </div>

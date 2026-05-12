@@ -72,7 +72,7 @@
             </address>
             <ul class="inline-list flex-responsive">
               <li>
-                <a href="file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html"
+                <a href="file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/index.html"
                    rel="noopener noreferrer"
                    aria-label="Glaven14.com"
                    class="link-with-icon">
@@ -122,9 +122,29 @@
           <a class="button" href="verification.html">Verification</a>
           <a class="button" href="engineering.html">Engineering</a>
         </nav>
+      </div>
+      <div class="container">
         <main>
           <section>
             <h2 class="section-heading page-title">Development</h2>
+          </section>
+          <section> 
+            <h4>Medium Scale Abstraction </h4>
+            <p>I wrote a for loop in main (lines 53-60) that iterates through all of the buttons that are a part of our testing framework and executes their specific simulation when pressed. This loop allows us to achieve abstraction in that we can continue to add unique simulations while only needing to create a button for them in the TestingButtons list (which I also created) - and not have to touch main at all. This abstraction not only allows for us to only have to make edits in one file when we want to add new simulations to our testing framework, but also keeps main relatively uncluttered by avoiding a long list of buttons to manually check.</p> 
+            <figure>
+              <img width="600"
+              height="338"
+              src="portfolio_media/abstraction.png"
+              alt="">
+            </figure>
+            <h4>Medium Scale Architecture </h4>
+            <p>The dialogue handler has a more event-driven architectural design in that the handler is constantly checking the game state to see if the particular requirements have been met for the dialogue to be produced. From this, we get dialogue that drives the story by introducing the player not only to the mechanics they've unlocked via progressing, but also to their motivation to continue to play. The dialogue handler interacts with the textbox class and the different dialogue .txt files, both of which I created, to seamlessly type a message to the gamer that corresponds to the point in the game they have progressed to. Other than that, we use the LOVE2D function onClick to manage fast forwarding through and the closing of the dialogue once the user has (hopefully) read my hard work.</p>  
+            <figure>
+              <img width="600"
+              height="338"
+              src="portfolio_media/architecture.png"
+              alt="">
+            </figure>
           </section>
         </main>
       </div>

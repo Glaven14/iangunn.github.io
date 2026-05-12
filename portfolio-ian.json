@@ -3,17 +3,22 @@
   "label": "Grinnell Student",
   "image_path": "portfolio_media/smallProfPhoto.jpg",
   "contact": {
-    "email": "gunnian@grinnell.edu",
-    "phone": "414-399-0675",
+    "email": "23ian.gunn@gmail.com",
+    "phone": "+1 414-399-0675",
     "location": "Grinnell, IA, USA"
   },
-  "summary": "Indie game designer and developer with a passion for creating engaging and immersive gaming experiences. Also interested in the unique challenges present within the cybersecurity field.",
+  "summary": "Indie game designer and developer with a passion for creating engaging and immersive gaming experiences. Also interested in the unique challenges present within the cybersecurity field. I enjoy pouring one hundred percent of myself into projects that challenge me to learn new skills and collaborate with others. ",
   "url": "file:///C:/Users/23ian/OneDrive/Documents/Portfolio/portfolio_generator/resume.html",
   "social_links": [
     {
       "label": "Github",
       "url": "https://github.com/Glaven14",
       "svg_path": "img/github.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ian-gunn-12a76b317",
+      "svg_path": "img/linkedin.svg"
     }
   ],
   "work_experience": [
@@ -197,7 +202,7 @@
       "institution": "Grinnell College",
       "location": "Grinnell, IA, USA",
       "url": "https://grinnell.edu",
-      "degrees in progress": [
+      "degrees": [
         "Bachelor of Science in Computer Science",
         "Bachelor of Science in Psychology"
       ],
@@ -208,7 +213,8 @@
         "Nancy E. Postma '52 Memorial Scholarship",
         "MLK Jr. Scholarship",
         "Inducted into Chi Alpha Sigma",
-        "Nominated for the Marie Nesbitt Promise Prize"
+        "Nominated for the Marie Nesbitt Promise Prize",
+        "One of 250 selected to attend the NCAA Student Athlete Leadership Conference in 2025"
       ],
       "gpa_cumulative": "3.75",
       "gpa_major": "3.71",
