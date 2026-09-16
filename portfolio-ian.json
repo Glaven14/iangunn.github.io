@@ -206,7 +206,7 @@
     },
     {
       "title": "CSC 213 - Computer Operating Systems and Parallel Algorithms",
-      "summary": "Study of both traditional and alternative computer architectures. Introduction to digital logic, microcode, Von Neumann architectures, data representations, fetch/execute model, RISC/CISC, instruction formats and addressing, machine and assembly language, memory architecture and algorithms, I/O architecture, and elements of distributed systems.",
+      "summary": "Study of the principal components of typical operating systems and an introduction to parallel algorithms. Topics from operating systems: storage management, scheduling, concurrent processing, synchronization, data protection, and security. Discussion of models of parallelism and algorithms for problems in such areas as lists, trees, searching, sorting, graphs, geometry, and strings. Includes formal laboratory work.",
       "url": ""
     },
     {
