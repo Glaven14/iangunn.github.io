@@ -205,6 +205,11 @@
       "url": ""
     },
     {
+      "title": "CSC 213 - Computer Operating Systems and Parallel Algorithms",
+      "summary": "Study of both traditional and alternative computer architectures. Introduction to digital logic, microcode, Von Neumann architectures, data representations, fetch/execute model, RISC/CISC, instruction formats and addressing, machine and assembly language, memory architecture and algorithms, I/O architecture, and elements of distributed systems.",
+      "url": ""
+    },
+    {
       "title": "CSC 301 - Analysis of Algorithms",
       "summary": "Study methods for designing, analyzing, and implementing algorithms and data structures. The course explores formal and precise mechanisms for analyzing efficiency and verifying correctness and both iterative and recursive algorithms.",
       "url": ""
@@ -239,8 +244,8 @@
         "Nominated for the Marie Nesbitt Promise Prize",
         "One of 250 selected to attend the NCAA Student Athlete Leadership Conference in 2025"
       ],
-      "gpa_cumulative": "3.75",
-      "gpa_major": "3.71",
+      "gpa_cumulative": "3.78",
+      "gpa_major": "3.88",
       "graduation_date": "2027"
     }
   ],
