@@ -166,6 +166,13 @@
                       {% endfor %}
                     </div>
                   {% endif %}
+                  {% if project.widgets %}
+                    <div class="widgets">
+                      {% for widget in project.widgets %}
+                        {{ widget | safe }}
+                      {% endfor %}
+                    </div>
+                  {% endif %}
                 </section>
               {% endfor %}
             </section>

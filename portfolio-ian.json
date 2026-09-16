@@ -35,6 +35,18 @@
       ]
     },
     {
+      "company": "Grinnell College Psychology Department",
+      "position": "Course Mentor",
+      "url": "",
+      "start_date": "2026",
+      "end_date": "Present",
+      "summary": "",
+      "highlights": [
+        "Worked with students in PSY-246 (Brain and Behavior) provided support in learning and understanding of course content.",
+        "Utilized active listening and supportive coaching strategies to build student confidence and competence in relevant content."
+      ]
+    },
+    {
       "company": "Grinnell College Athletics Department",
       "position": "Student Athlete Mentor",
       "url": "",
@@ -153,6 +165,17 @@
           "caption": "Puzzles solved"
         }
       ]
+    },
+    {
+      "title": "PaperQuest",
+      "summary": "In PaperQuest, you are one of the world's gods—the paper god—clicking to make paper and expand your power and influence over the world. Unlock and fold paper weapons to increase tree-cutting efficiency, refine wood into paper to grow your power, and breathe life into origami creations to assist you in your goals.",
+      "url": "https://github.com/orgs/Idle-Devs-Progress-is-Optional/repositories",
+      "highlights": ["As part of the 324 CS curriculum, I was challenged to create a medium-scale project over the duration of the semester with a team of 3 other students.",
+                     "We worked together to design and develop a game in the Love2D framework, utilizing agile development methods and professional tools to create a high-quality product.",
+                     "I was responsible for designing and implementing the story progression, dialogue, soundtrack, and save state system, as well as contributing to the overall game design and verification process."],
+      "widgets": [
+        "<iframe frameborder=\"0\" src=\"https://itch.io/embed/4467098?linkback=true&amp;bg_color=FFF6E9&amp;fg_color=403F4A&amp;link_color=80492F&amp;border_color=cfaa8e\" width=\"552\" height=\"167\"><a href=\"https://idledevs.itch.io/paperquest\">PaperQuest by Idle Devs: Progress is Optional</a></iframe>"
+      ]
     }
   ],
   "classes": [
@@ -212,7 +235,7 @@
         "Harry Hopkins 1912 Grant",
         "Nancy E. Postma '52 Memorial Scholarship",
         "MLK Jr. Scholarship",
-        "Inducted into Chi Alpha Sigma",
+        "Inducted into Chi Alpha Sigma - National College Athlete Honor Society",
         "Nominated for the Marie Nesbitt Promise Prize",
         "One of 250 selected to attend the NCAA Student Athlete Leadership Conference in 2025"
       ],
