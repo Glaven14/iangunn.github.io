@@ -121,8 +121,12 @@
                       {{ job.position }} at {{ job.company }}
                     {% endif %}
                   </h3>
-                  {% if job.start_date and job.end_date %}
-                    <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
+                  {% if job.start_date %}
+                    {% if job.end_date %}
+                      <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
+                    {% else %}
+                      <p class="section-label">{{ job.start_date }}</p>
+                    {% endif %}
                   {% endif %}
                   {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
                   {% if job.highlights %}
@@ -220,20 +224,53 @@
               {% for vol in volunteer_experience %}
                 <section>
                   <h3>
-                    {% if vol.url %}
-                      {{ vol.position }} at <a href="{{ vol.url }}">{{ vol.organization }}</a>
-                    {% else %}
-                      {{ vol.position }} at {{ vol.organization }}
-                    {% endif %}
+                    {{ vol.organization }}
                   </h3>
-                  {% if vol.start_date and vol.end_date %}
-                    <p class="section-label">{{ vol.start_date }} - {{ vol.end_date }}</p>
-                  {% endif %}
-                  {% if vol.summary %}<p>{{ vol.summary }}</p>{% endif %}
-                  {% if vol.highlights %}
-                    <ul>
-                      {% for highlight in vol.highlights %}<li>{{ highlight }}</li>{% endfor %}
-                    </ul>
+                  {% for position in vol.position %}
+                    {% if position.start_date %}
+                      {% if position.url %}
+                        <p class="section-label" style="font-size: 1.1rem;"><a href="{{ position.url }}">{{  position.title }}</a>  - {{ position.start_date }} - {{ position.end_date }}</p>
+                      {% else %}
+                        <p class="section-label" style="font-size: 1.1rem;">{{ position.title }} - {{ position.start_date }} - {{ position.end_date }}</p>
+                      {% endif %}
+                    {% else %}
+                      {% if position.url %}
+                        <p class="section-label" style="font-size: 1.1rem;"><a href="{{ position.url }}">{{  position.title }}</a></p>
+                      {% else %}
+                        <p class="section-label" style="font-size: 1.1rem;">{{ position.title }}</p>
+                      {% endif %}
+                    {% endif %}
+                    {% if position.summary %}<p>{{ position.summary }}</p>{% endif %}
+                    {% if position.highlights %}
+                      <ul>
+                        {% for highlight in position.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                      </ul>
+                    {% endif %}
+                  {% endfor %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
+          {% if certificates %}
+            <section>
+              <h2 class="section-heading">Certificates</h2>
+              {% for certificate in certificates %}
+                <section>
+                  <h3>{{ certificate.name }}</h3>
+                  {% if certificate.summary %}<p>{{ certificate.summary }}</p>{% endif %}
+                  {% if certificate.images %}
+                    <div class="gallery side-gallery">
+                      {% for img in certificate.images %}
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                          <figcaption>{{ img.caption }}</figcaption>
+                        </figure>
+                      {% endfor %}
+                    </div>
                   {% endif %}
                 </section>
               {% endfor %}
@@ -274,7 +311,7 @@
                   </h3>
                   {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
                   {% if edu.degrees %}
-                    <h4>Degrees</h4>
+                    <h4>Degrees in Progress</h4>
                     <ul>
                       {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
                     </ul>

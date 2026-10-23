@@ -47,19 +47,6 @@
       ]
     },
     {
-      "company": "Grinnell College Athletics Department",
-      "position": "Student Athlete Mentor",
-      "url": "",
-      "start_date": "2024",
-      "end_date": "Present",
-      "summary": "",
-      "highlights": [
-        "Selected by Grinnell administration as one of two mentors for the Grinnell Baseball team.",
-        "Extensively trained in resources for student and athlete wellbeing.",
-        "Provided regular socio-emotional coaching, support, and mentoring to the baseball team, as well as individual students."
-      ]
-    },
-    {
       "company": "Grinnell College CS Department",
       "position": "Computer Science Tutor",
       "url": "",
@@ -72,24 +59,11 @@
       ]
     },
     {
-      "company": "Kitsap Ospreys",
-      "position": "U18 Assistant Baseball Coach",
-      "url": "https://kitsapospreys.org/",
-      "start_date": "2024",
-      "end_date": "2026",
-      "summary": "",
-      "highlights": [
-        "Instructed players in the nuances of high-level baseball in group and one-on-one settings.",
-        "Counseled players on individual improvement opportunities based on player goals.",
-        "Participated in decision-making with head coaches on team composition, based on assessment of program needs and player strengths."
-      ]
-    },
-    {
       "company": "Grinnell College Immersive Experiences Lab",
       "position": "Intern",
       "url": "https://gciel.sites.grinnell.edu/",
       "start_date": "2024",
-      "end_date": "2024",
+      "end_date": "",
       "summary": "",
       "highlights": [
         "Involved in the design process with a historian, devs, and a project manager to create a historically accurate viking experience.",
@@ -126,7 +100,7 @@
       "position": "Contract Animator",
       "url": "",
       "start_date": "2020",
-      "end_date": "2020",
+      "end_date": "",
       "summary": "",
       "highlights": [
         "Retained to create an anecdotal animation for a national health consulting firm."
@@ -225,6 +199,129 @@
       "url": ""
     }
   ],
+  "volunteer_experience": [
+    {
+      "organization": "Grinnell College",
+      "position": [
+        {
+          "title": "Student Athlete Mentor",
+          "url": "",
+          "start_date": "2024",
+          "end_date": "Present",
+          "summary": "",
+          "highlights": [
+          "Selected by Grinnell athletic administration as a player willing to mentor peers.",
+          "Extensively trained in resources for student and athlete wellbeing.",
+          "Provided regular socio-emotional coaching, support, and mentoring to the baseball team, as well as individual students."
+          ]
+        },
+        {
+          "title": "Student Athlete Mentor Coleader",
+          "url": "",
+          "start_date": "2026",
+          "end_date": "Present",
+          "summary": "",
+          "highlights": [
+            "Selected by Grinnell athletic administration to provide leadership and guidance to other SAMs.",
+            "Organized and led regular meetings with other Student Athlete Mentors to discuss best practices.",
+            "Provided regular socio-emotional coaching, support, and mentoring to other Student Athlete Mentors."
+          ]
+        },
+        {
+          "title" : "Student Athletes Leading Social Change Member",
+          "url": "",
+          "start_date": "2025",
+          "end_date": "Present",
+          "summary": "",
+          "highlights": [
+            "Helped plan and execute events to raise awareness of social issues and promote positive change on campus."
+          ]
+        },
+        {
+          "title": "Student Athletes Leading Social Change Cabinet Member",
+          "url": "",
+          "start_date": "2026",
+          "end_date": "Present",
+          "summary": "",
+          "highlights": [
+            "Selected to Participate in strategic planning sessions to develop and implement initiatives that promote social change on campus.",
+            "Reached out to resources on campus to coordinate events and initiatives to promote social change."
+          ]
+        },
+        {
+          "title":  "Honor G Redesign Committee Member",
+          "url": "",
+          "start_date": "2026",
+          "end_date": "Present",
+          "summary": "",
+          "highlights": [
+            "Selected to participate in discussions and decision-making processes to redesign the athletic department's logo.",
+            "Solicited and incorporated feedback from various stakeholders to ensure the new logo accurately represents the values and identity of the athletic department."
+          ]
+        },
+        {
+          "title": "Safety Dog",
+          "url": "",
+          "start_date": "2024",
+          "end_date": "2026",
+          "summary": "",
+          "highlights": [
+            "Recieved training in harm reduction, first aid, and emergency response to assist students in need during campus events.",
+            "Organized a team of student volunteers to manage crowds during campus events."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Liftlands",
+      "position": [
+        {
+          "title": "Playtester",
+          "url": "https://store.steampowered.com/app/2893350/Liftlands/",
+          "start_date": "2026",
+          "end_date": "Present",
+          "summary": "",
+          "highlights": [
+            "Provided feedback on game mechanics and overall player experience.",
+            "Tested various aspects of the game to identify and report bugs."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Grinnell College Baseball Team",
+      "position": [
+        {
+          "title": "Cultural Champion",
+          "url": "",
+          "start_date": "2026",
+          "end_date": "Present",
+          "summary": "",
+          "highlights": [
+            "Promoted a culture of inclusivity and respect within the baseball team.",
+            "Organized and led discussions on cultural awareness and sensitivity."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Kitsap Ospreys",
+      "position": [
+        {
+          "title": "U18 Assistant Baseball Coach",
+          "url": "https://kitsapospreys.org/",
+          "start_date": "2024",
+          "end_date": "2026",
+          "summary": "",
+          "highlights": [
+            "Instructed players in the nuances of high-level baseball in group and one-on-one settings.",
+            "Counseled players on individual improvement opportunities based on player goals.",
+            "Participated in decision-making with head coaches on team composition, based on assessment of program needs and player strengths."
+          ]
+        }
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Grinnell College",
@@ -247,6 +344,28 @@
       "gpa_cumulative": "3.78",
       "gpa_major": "3.88",
       "graduation_date": "2027"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Try Hack Me - Hacker Holidays 2026",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/ByteLotusHotelCertificate.png",
+          "caption": "Completed 13 of 14 challenges in the Try Hack Me Hacker Holidays 2026 event, earning a certificate of completion."
+        }
+      ]
+    },
+    {
+      "name": "QPR Suicide Prevention Gatekeeper",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/QPRCertificate.png",
+          "caption": "Completed 1 hour training on suicide prevention."
+        }
+      ]
     }
   ],
   "skills": [
